@@ -24,7 +24,7 @@ function averageAge ( array $students) : float {
 	$totalAge = 0;
 
 	foreach ($students as $student) {
-		//PHP_EOL creates a new line when outputing from a script
+
 		echo $student["name"] . " is " .  $student["age"];
 		echo "<br>";
 		$totalAge += $student["age"];
